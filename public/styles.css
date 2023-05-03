@@ -1,0 +1,441 @@
+/*
+background transparent images for css:
+https://www.transparenttextures.com/ 
+
+icons for css:
+https://mui.com/material-ui/material-icons/
+*/
+
+/* *************************GENERAL************************* */
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E4E9FD;
+  background-image: url("/cubes.png");
+  font-size: 1.1em;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  position: relative;
+}
+
+section {
+  padding-top: 50px;
+}
+
+p {
+  line-height: 2;
+}
+
+h1 {
+  color: #354259;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+h2 {
+  color: #607cad;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding: 20px 0 0 0;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #354259;
+  padding: 10px 0 0 0;
+  font-size: 1.25rem;
+}
+
+a:hover {
+  color: #fff;
+}
+
+hr {
+  border-style: solid;
+  border-bottom-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  margin: 20px auto 20px auto;
+  width: 3%;
+  color: #354259;
+}
+
+/* *************************NAV BAR************************* */
+
+header {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  position: sticky;
+  z-index: 1;
+}
+
+.navbar {
+  background-color: #354259;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  color: #ECE5C7;
+  display: flex;
+  font-size: 1rem;
+  position: absolute;
+  width: 100%;
+}
+
+.navbarItems {
+  display: flex;
+}
+
+.navbarLink {
+  padding: 35px;
+}
+
+.navbarItemsRight {
+  margin-left: auto;
+}
+
+.navbarLinkToggle {
+  display: none;
+  right: 25px;
+  top: 25px;
+}
+
+
+
+
+
+/* *************************BODY SECTION************************* */
+/* ************INTRO SECTION************ */
+.intro {
+  height: 700px;
+  margin: auto;
+  padding: 250px 32px 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  background-color: #ECE5C7;
+  background-image: url("/black-thread-light.png");
+}
+
+.iconBar {
+  background-color: #354259;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 11.5%;
+  left: 0;
+  z-index: 0;
+}
+
+.iconBar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: #ECE5C7;
+}
+
+.iconBar a:hover {
+  background-color: #3B5998;
+}
+
+
+.introDiv {
+  height: 200px;
+  width: 66%;
+  margin: 50px auto 100px auto;
+}
+
+.introDivP {
+  font-size: 1.2rem;
+  padding: 40px 0;
+}
+
+
+
+
+/* ************ABOUT SECTION************ */
+.about {
+  width: 66%;
+  margin: 50px auto 100px auto;
+}
+
+.aboutSub {
+  display: flex;
+  text-align: left;
+  gap: 100px;
+}
+
+.aboutBoxes {
+  flex: 1;
+}
+
+.aboutMeP {
+  padding: 5px;
+  text-align: left;
+  margin: 10px auto;
+}
+
+
+.skill {
+  background: rgba(202, 202, 202, 0.651);
+  display: inline-block;
+  border-radius: 5px;
+  margin: 7px;
+  padding: 0px 20px;
+}
+
+
+/* ************SKILLS SECTION************ */
+.skills {
+  padding-top: 50px;
+  width: 50%;
+  margin: 50px auto 100px auto;
+}
+
+.skillRow {
+  margin: 50px auto 100px auto;
+  text-align: left;
+}
+
+.controllerImg {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.guitarImg {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+/* ************CONTACT SECTION************ */
+.contact {
+  padding-bottom: 100px;
+  width: 40%;
+  margin: auto;
+}
+
+.infoP {
+  width: 100%;
+  margin: 25px auto;
+}
+
+.btn {
+  background: #354259;
+  background-image: -webkit-linear-gradient(top, #354259, #263146);
+  background-image: -moz-linear-gradient(top, #354259, #263146);
+  background-image: -ms-linear-gradient(top, #354259, #263146);
+  background-image: -o-linear-gradient(top, #354259, #263146);
+  background-image: linear-gradient(to bottom, #354259, #263146);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ECE5C7;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+}
+
+.btn:hover {
+  background: #607cad;
+  background-image: -webkit-linear-gradient(top, #607cad, #4b6592);
+  background-image: -moz-linear-gradient(top, #607cad, #4b6592);
+  background-image: -ms-linear-gradient(top, #607cad, #4b6592);
+  background-image: -o-linear-gradient(top, #607cad, #4b6592);
+  background-image: linear-gradient(to bottom, #607cad, #4b6592);
+  text-decoration: none;
+}
+
+
+
+/* *************************FOOTER SECTION************************* */
+footer {
+  background-color: #354259;
+}
+
+.footerContainer {
+  margin: auto;
+  text-align: left;
+  position: relative;
+  padding: 50px 50px 0 50px;
+  width: 66%;
+  height: 200px;
+  align-items: flex-start;
+}
+
+.footerIntro {
+  width: 60%;
+  margin: 10px 40px 0 0;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  min-width: auto;
+}
+
+.footerSocial {
+  margin: 10px 0 0 40px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.footerCopyright {
+  position: relative;
+  display: block;
+}
+
+footer h2 {
+  font-size: 1.25rem;
+  color: #ECE5C7;
+  padding-bottom: 10px;
+}
+
+.footerLink {
+  margin-right: 20px;
+  color: #ECE5C7;
+}
+
+.footerLink:hover {
+  color: #607cad;
+  cursor: pointer;
+}
+
+footer p {
+  background-color: #354259;
+  color: #ECE5C7;
+  font-size: .75em;
+}
+
+footer a {
+  margin: auto 25px;
+}
+
+footer hr {
+  border-style: none;
+  border-bottom-style: solid;
+  border-width: 1px;
+  margin: 30px auto 25px auto;
+  width: 66%;
+  color: #EAF6F6;
+}
+
+.copyrightName {
+  padding: 20px 0 30px 0;
+  font-size: .75rem;
+}
+
+
+
+
+/* *************************MEDIUM DEVICE SECTION************************* */
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+  }
+  
+  .navbarItems {
+    font-size: .70rem;
+    align-items: center;
+  }
+
+  .toggleItem {
+    padding-left: 20px;
+  }
+
+  .intro {
+    padding: 150px 32px 10px;
+    height: 500px;
+  }
+
+  .iconBar {
+    display: none;
+  }
+
+  .introDivP {
+    font-size: 1rem;
+  }
+}
+
+
+/* *************************MOBILE DEVICE SECTION************************* */
+@media only screen and (max-width: 800px) {
+  body {
+    font-size: .75rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  hr {
+    width: 15%;
+  }
+
+  .navbarItems,
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbarItems {
+    display: none;
+  }
+
+  .navbarItemsRight {
+    margin-left: 0;
+  }
+
+  .navbarLinkToggle {
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+    font-size: 0.1rem;
+  }
+
+  .navbarBrand {
+    margin-left: 0;
+    text-align: left;
+    padding: 25px;
+  }
+
+  .navbarToggleShow {
+    display: flex;
+  }
+
+  .toggleItem {
+    border-top: 1px solid #415474;
+    text-align: right;
+    padding: 20px;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .intro {
+    padding: 150px 32px 10px;
+    height: 500px;
+  }
+
+  .introDivP {
+    font-size: .75rem;
+  }
+
+  .aboutSub {
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+  }
+
+  footer p {
+    font-size: .55rem;
+  }
+}
