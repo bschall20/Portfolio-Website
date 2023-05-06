@@ -124,7 +124,7 @@ function Home() {
             <p class="projectP">Ever wanted a place for your dog to swipe on other dogs to go
             on pup dates? </p>
           </div>
-          
+
         </div>
 
 
