@@ -38,17 +38,17 @@ function Header() {
                         Home
                     </div>
                     <div class="navbarLink toggleItem">
+                        About
+                    </div>
+                    <div class="navbarLink toggleItem">
                         Projects
                     </div>
                     <div class="navbarLink toggleItem">
-                        Resume
+                        Contact
                     </div>
-                    <div class="navbarLink toggleItem">
-                        Hobbies
-                    </div>
-                    <div class="navbarLink toggleItem">
+                    {/* <div class="navbarLink toggleItem">
                         Reviews
-                    </div>
+                    </div> */}
                 </nav>
             </div>
         </header>
