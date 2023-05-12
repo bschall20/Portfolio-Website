@@ -7,7 +7,9 @@ function ProjectEntry(props) {
         <img src={props.image} className="projectImg"></img>
       </a>
       <div className="projectBoxP">
-        <h3 className="projectTitle">{props.title}</h3>
+      <a href={props.link} target="_blank">
+      <h3 className="projectTitle">{props.title}</h3>
+      </a>
         <p className="projectP">{props.description}</p>
       </div>
     </div>

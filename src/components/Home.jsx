@@ -2,9 +2,6 @@ import React from "react";
 import Link from '@mui/material/Link';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-
-
-
 import ProjectEntry from "./ProjectEntry";
 import projects from "../projects";
 

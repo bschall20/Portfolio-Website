@@ -13,21 +13,21 @@ const projects = [
     {
         id: 1,
         image: Dice,
-        link: "https://bschall20.github.io/Simon-Says-Color-Game/",
+        link: "https://bschall20.github.io/Two-Player-Dice-Game/",
         title: "Dice Game",
         description: "asdfasf asd fasdf asdfknlasdbl fkasnhf lkjasfh aks asd;lfjk haslkjdfh as;f  asldkjf laksjdhflksajd hfasd fasf l;kasf;lk as;dlfjk als;kjfdlkas"
     },
     {
         id: 2,
         image: TinDogShot,
-        link: "https://bschall20.github.io/Two-Player-Dice-Game/",
+        link: "https://bschall20.github.io/Bootstrap-Tindog-Website/",
         title: "TinDog Website",
         description: "asdfasf asd fasdf asdfknlasdbl fkasnhf lkjasfh aks asd;lfjk haslkjdfh as;f  asldkjf laksjdhflksajd hfasd fasf l;kasf;lk as;dlfjk als;kjfdlkas"
     },
     {
         id: 3,
         image: SimonShot,
-        link: "https://bschall20.github.io/Bootstrap-Tindog-Website/",
+        link: "https://bschall20.github.io/Simon-Says-Color-Game/",
         title: "Simon Says Game",
         description: "asdfasf asd fasdf asdfknlasdbl fkasnhf lkjasfh aks asd;lfjk haslkjdfh as;f  asldkjf laksjdhflksajd hfasd fasf l;kasf;lk as;dlfjk als;kjfdlkas"
     }

@@ -44,7 +44,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 
 h3 {
@@ -99,7 +99,7 @@ header {
   width: 100%;
 }
 
-.navbar a {
+.navbar a, .projectBoxP a{
   text-decoration: none;
   color: inherit;
 }
@@ -126,6 +126,10 @@ header {
 
 
 /* *************************BODY SECTION************************* */
+
+
+
+
 /* ************INTRO SECTION************ */
 .introSection {
   background-color: #ECE5C7;
@@ -172,7 +176,6 @@ header {
 
 
 
-
 /* ************ABOUT SECTION************ */
 .aboutSection {
   /* width: 66%; */
@@ -183,7 +186,7 @@ header {
   display: flex;
   text-align: left;
   gap: 100px;
-  margin-top: 75px;
+  margin-top: 25px;
 }
 
 .aboutBoxes {
@@ -231,10 +234,10 @@ header {
 
 .projectImg {
   /* height: 342px;
-  width: 608px; */
+  width: 608px; 
+  max-height: 15vw; if img isn't in an anchor tag*/
   max-width: 100%;
-  max-height: 15vw;
-
+  max-height: 35vw;
 }
 
 .projectP {
@@ -245,8 +248,8 @@ header {
 
 .projectTitle{
   text-align: center;
-  margin: auto;
-  font-weight: bold;
+  /* margin: auto; */
+  /* font-weight: bold; */
   padding-bottom: 15px;
 }
 
@@ -356,10 +359,6 @@ footer p {
   /* font-size: .75em; */
 }
 
-footer a {
-  margin: auto 25px;
-}
-
 footer hr {
   border-style: none;
   border-bottom-style: solid;
@@ -373,6 +372,7 @@ footer hr {
   padding: 20px 0 30px 0;
   font-size: .75rem;
 }
+
 
 
 
@@ -496,9 +496,18 @@ footer hr {
     font-size: 1rem;
   }
 
+  .introSection{
+    height: 625px;
+  }
+
   .intro {
     padding: 150px 32px 10px;
     height: 500px;
+  }
+
+  .introDiv{
+    margin-top: 0px;
+    width: 100%;
   }
 
   .introDivP {
