@@ -19,10 +19,10 @@ function Footer() {
 
         <div className="footerSocial">
           <h2>SOCIAL</h2>
-          <Link href="https://github.com/bschall20">
+          <Link href="https://github.com/bschall20" target="_blank">
             <GitHubIcon className="footerLink" />
           </Link>
-          <Link href="https://www.linkedin.com/in/brennan-schall-36bb14139/">
+          <Link href="https://www.linkedin.com/in/brennan-schall-36bb14139/" target="_blank">
             <LinkedInIcon className="footerLink" />
           </Link>
         </div>

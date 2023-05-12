@@ -76,7 +76,7 @@ hr {
 
 .sectionP {
   width: 50%;
-  margin: 0 auto 50px;
+  margin: auto;
 }
 
 /* *************************NAV BAR************************* */
@@ -97,6 +97,11 @@ header {
   font-size: 1rem;
   position: absolute;
   width: 100%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .navbarItems {
@@ -178,6 +183,7 @@ header {
   display: flex;
   text-align: left;
   gap: 100px;
+  margin-top: 75px;
 }
 
 .aboutBoxes {
@@ -197,18 +203,13 @@ header {
 }
 
 
-/* ************SKILLS SECTION************ */
+/* ************PROJECT SECTION************ */
 .projectSection {
-  padding-top: 50px;
+  /* padding-top: 50px; */
   /* width: 50%; */
-  margin: 50px auto 100px auto;
+  margin: 0px auto 50px;
 }
 
-/* 
-.aboutSection {
-  width: 66%;
-  margin: 50px auto;
-} */
 
 .projectSub {
   display: flex;
@@ -223,6 +224,7 @@ header {
   flex-direction: row;
   gap: 50px;
   align-items: center;
+  margin-top: 75px;
   /* justify-content: center; */
   /* flex-wrap: wrap; */
 }
@@ -232,6 +234,7 @@ header {
   width: 608px; */
   max-width: 100%;
   max-height: 15vw;
+
 }
 
 .projectP {
@@ -240,22 +243,17 @@ header {
   margin: auto;
 }
 
-/* .skillRow {
-  margin: 50px auto 100px auto;
-  text-align: left;
+.projectTitle{
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+  padding-bottom: 15px;
 }
 
-.controllerImg {
-  width: 20%;
-  float: left;
-  margin-right: 30px;
+.projectBoxP {
+  flex-direction: column;
 }
 
-.guitarImg {
-  width: 20%;
-  float: right;
-  margin-left: 30px;
-} */
 
 
 /* ************CONTACT SECTION************ */
@@ -267,7 +265,7 @@ header {
 
 .infoP {
   width: 100%;
-  margin: 25px auto;
+  margin: 25px auto 50px;
 }
 
 .btn {
@@ -385,6 +383,10 @@ footer hr {
     font-size: 3rem;
   }
 
+  .sectionP {
+    width: 100%;
+  }
+
   .navbarItems {
     font-size: .70rem;
     align-items: center;
@@ -424,6 +426,10 @@ footer hr {
     max-height: none;
   }
 
+  .contact {
+    width: 60%;
+  }
+
   footer p {
     font-size: .75rem;
   }
@@ -447,6 +453,10 @@ footer hr {
   hr {
     width: 15%;
   }
+
+  /* .sectionP {
+    width: 100%;
+  } */
 
   .navbarItems,
   .navbar {
@@ -502,9 +512,9 @@ footer hr {
     text-align: center;
   }
 
-  .subP {
-    text-align: center;
-  }
+  /* .subP {
+    text-align: left;
+  } */
 
   footer p {
     font-size: .55rem;

@@ -19,15 +19,15 @@ function Header() {
     const [active, setActive] = useState(false);
     const handleChangeActive = () => {
         setActive((previousIcon) => {
-          return !previousIcon;
+            return !previousIcon;
         });
-      };
+    };
 
     return (
         <header>
             <div class="navbar">
                 <div class="navbarLink navbarBrand">
-                    Brennan Schall
+                <a href="#home">Brennan Schall</a>
                 </div>
                 <div class="navbarLinkToggle" onClick={showNavbar}>
                     <ToggleIcon active={active} handleChangeActive={handleChangeActive} />
@@ -35,16 +35,16 @@ function Header() {
 
                 <nav class="navbarItems navbarItemsRight">
                     <div class="navbarLink toggleItem">
-                        Home
+                        <a href="#home">Home</a>
                     </div>
                     <div class="navbarLink toggleItem">
-                        About
+                        <a href="#about">About</a>
                     </div>
                     <div class="navbarLink toggleItem">
-                        Projects
+                        <a href="#projects">Projects</a>
                     </div>
                     <div class="navbarLink toggleItem">
-                        Contact
+                        <a href="#contact">Contact</a>
                     </div>
                     {/* <div class="navbarLink toggleItem">
                         Reviews
