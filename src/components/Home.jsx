@@ -24,8 +24,8 @@ function Home() {
     <div>
 
       {/**************INTRO SECTION**************/}
-      <a id="home"/>
-      <section class="introSection">
+      {/* <a id="home"/> */}
+      <section class="introSection" id="home">
         <div class="iconBar">
           <Link href="https://github.com/bschall20" target="_blank">
             <GitHubIcon fontSize="large"/>
@@ -37,14 +37,14 @@ function Home() {
 
         <div class="introDiv">
           <h1>HEY, I'M BRENNAN SCHALL</h1>
-          <p class="introDivP">I'm a self-taught Frontend focused Web Developer located in Toledo, Ohio that is passionate about creating art through code and
+          <p class="introDivP" id="about">I'm a self-taught Frontend focused Web Developer located in Toledo, Ohio that is passionate about creating art through code and
             learning new coding practices!</p>
         </div>
       </section>
 
 
       {/**************ABOUT SECTION**************/}
-      <a id="about"/>
+      {/* <a id="about"/> */}
       <section class="aboutSection">
         <div>
           <h2>ABOUT ME</h2>
@@ -78,16 +78,17 @@ function Home() {
             <p class="skill">GIT</p>
             <p class="skill">Github</p>
             <p class="skill">Responsive Design</p>
-            <p class="skill">SQL Basics</p>
+            <p class="skill">SQL</p>
             <p class="skill">Terminal</p>
             <p class="skill">JQuery</p>
             <p class="skill">MongoDB</p>
             <p class="skill">Mongoose</p>
             <p class="skill">Express JS</p>
             <p class="skill">Node JS</p>
+            <p class="skill" id="projects">REST API's</p>
           </div>
         </div>
-        <a id="projects"/>
+        {/* <a id="projects"/> */}
       </section>
 
 
@@ -131,12 +132,12 @@ function Home() {
             <span>{projects.map(createProject)}</span>
           
         </div>
-        <a id="contact"/>
+        {/* <a id="contact"/> */}
       </section>
 
 
       {/**************CONTACT SECTION**************/}
-      <section class="contact">
+      <section class="contact" id="contact">
         <h2>GET IN TOUCH</h2>
         <h3>If you're interested in my work.</h3>
         <hr />

@@ -27,7 +27,7 @@ function Header() {
         <header>
             <div class="navbar">
                 <div class="navbarLink navbarBrand">
-                <a href="#home">Brennan Schall</a>
+                    <a href="#home">Brennan Schall</a>
                 </div>
                 <div class="navbarLinkToggle" onClick={showNavbar}>
                     <ToggleIcon active={active} handleChangeActive={handleChangeActive} />
