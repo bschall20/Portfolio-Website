@@ -32,7 +32,7 @@ function Footer() {
       <div className="footerCopyright">
         <hr style={{display: "block"}}/>
         {/* <p class="copyrightName">© Copyright {year}. Made by Brennan Schall</p> */}
-        <p class="copyrightName">© Copyright {year}. Made by <a href="#home" style={{color:"inherit"}}>Brennan Schall</a></p>
+        <p className="copyrightName">© Copyright {year}. Made by <a href="#home" style={{color:"inherit"}}>Brennan Schall</a></p>
       </div>
     </footer>
   ); 

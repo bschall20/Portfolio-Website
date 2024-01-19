@@ -25,8 +25,8 @@ function Home() {
 
       {/**************INTRO SECTION**************/}
       {/* <a id="home"/> */}
-      <section class="introSection" id="home">
-        <div class="iconBar">
+      <section className="introSection" id="home">
+        <div className="iconBar">
           <Link href="https://github.com/bschall20" target="_blank" rel="noreferrer">
             <GitHubIcon fontSize="large"/>
           </Link>
@@ -35,9 +35,9 @@ function Home() {
           </Link>
         </div>
 
-        <div class="introDiv">
+        <div className="introDiv">
           <h1>HEY, I'M BRENNAN SCHALL</h1>
-          <p class="introDivP" id="about">I'm a self-taught Frontend focused Web Developer located in Toledo, Ohio that is passionate about creating art through code and
+          <p className="introDivP" id="about">I'm a self-taught Frontend focused Web Developer located in Toledo, Ohio that is passionate about creating art through code and
             learning new coding practices!</p>
         </div>
       </section>
@@ -45,47 +45,47 @@ function Home() {
 
       {/**************ABOUT SECTION**************/}
       {/* <a id="about"/> */}
-      <section class="aboutSection">
+      <section className="aboutSection">
         <div>
           <h2>ABOUT ME</h2>
           <hr />
-          <p class="sectionP">Here you will find more information about me from my skills,
+          <p className="sectionP">Here you will find more information about me from my skills,
             what I do, and my life outside of coding!</p>
         </div>
 
-        <div class="aboutSub">
-          <div class="aboutBoxes">
+        <div className="aboutSub">
+          <div className="aboutBoxes">
             <h3>Get to know me!</h3>
-            <p class="subP">I'm a self-taught Frontend Web Developer with a passion for developing interactive art through code.
+            <p className="subP">I'm a self-taught Frontend Web Developer with a passion for developing interactive art through code.
               My <a href="https://www.bgsu.edu/technology-architecture-and-applied-engineering/schools-and-departments/engineering-technologies/electronics-and-computer-engineering-technology.html">
                 Electronics and Computer Engineering Technology degree</a> introduced me to coding
               in Visual Basic and C++ and I have decided to further pursue programming through Web Development!</p>
 
-            <p class="subP">Outside of coding, I enjoy gaming on my PC, playing my guitar, working out,
+            <p className="subP">Outside of coding, I enjoy gaming on my PC, playing my guitar, working out,
               trying to learn stocks, and hanging out with friends to watch football and hockey or play Name That Tune. </p>
 
-            <p class="subP">If you think I'm a great fit for your developer team,
+            <p className="subP">If you think I'm a great fit for your developer team,
               feel free to reach out! I am interested in learning new coding practices in
               a professional environment and growing my skills through receiving constructive criticism and feedback.</p>
           </div>
 
-          <div class="aboutBoxes">
+          <div className="aboutBoxes">
             <h3 style={{ paddingBottom: "10px" }}>My Skills</h3>
-            <p class="skill">HTML</p>
-            <p class="skill">CSS</p>
-            <p class="skill">JavaScript</p>
-            <p class="skill">React</p>
-            <p class="skill">GIT</p>
-            <p class="skill">Github</p>
-            <p class="skill">Responsive Design</p>
-            <p class="skill">SQL</p>
-            <p class="skill">Terminal</p>
-            <p class="skill">JQuery</p>
-            <p class="skill">MongoDB</p>
-            <p class="skill">Mongoose</p>
-            <p class="skill">Express JS</p>
-            <p class="skill">Node JS</p>
-            <p class="skill" id="projects">REST API's</p>
+            <p className="skill">HTML</p>
+            <p className="skill">CSS</p>
+            <p className="skill">JavaScript</p>
+            <p className="skill">React</p>
+            <p className="skill">GIT</p>
+            <p className="skill">Github</p>
+            <p className="skill">Responsive Design</p>
+            <p className="skill">SQL</p>
+            <p className="skill">Terminal</p>
+            <p className="skill">JQuery</p>
+            <p className="skill">MongoDB</p>
+            <p className="skill">Mongoose</p>
+            <p className="skill">Express JS</p>
+            <p className="skill">Node JS</p>
+            <p className="skill" id="projects">REST API's</p>
           </div>
         </div>
         {/* <a id="projects"/> */}
@@ -93,13 +93,13 @@ function Home() {
 
 
       {/**************PROJECTS SECTION**************/}
-      <section class="projectSection">
+      <section className="projectSection">
         <h2>PROJECTS</h2>
         <hr />
-        <p class="sectionP">Here you will find some of the projects I've worked on
+        <p className="sectionP">Here you will find some of the projects I've worked on
           in my free time ranging from just HTML to backend content!</p>
 
-        <div class="projectSub">
+        <div className="projectSub">
 
           {/* <div class="projectBox">
             <img src={Dice} alt="Dice Game Screenshot" class="projectImg" />
@@ -137,14 +137,14 @@ function Home() {
 
 
       {/**************CONTACT SECTION**************/}
-      <section class="contact" id="contact">
+      <section className="contact" id="contact">
         <h2>GET IN TOUCH</h2>
         <h3>If you're interested in my work.</h3>
         <hr />
-        <p class="infoP">
+        <p className="infoP">
           Looking to hire me, talk about best coding practices, or provide feedback on my website? Reach out to me below!
           I'd love to form or join a community to improve ourselves!</p>
-        <a class="btn" href="mailto:schallb@bgsu.edu">CONTACT ME</a>
+        <a className="btn" href="mailto:schallb@bgsu.edu">CONTACT ME</a>
       </section>
 
     </div>

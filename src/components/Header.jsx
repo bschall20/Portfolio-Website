@@ -10,7 +10,7 @@ function showNavbar() {
     navs.forEach(nav => nav.classList.toggle('navbarToggleShow'));
 
     const navbarIcon = document.querySelector('.navbarLinkToggle');
-    navbarIcon.classList.toggle('')
+    navbarIcon.classList.toggle('.navbarLinkToggle')
 }
 
 
@@ -25,25 +25,25 @@ function Header() {
 
     return (
         <header>
-            <div class="navbar">
-                <div class="navbarLink navbarBrand">
+            <div className="navbar">
+                <div className="navbarLink navbarBrand">
                     <a href="#home">Brennan Schall</a>
                 </div>
-                <div class="navbarLinkToggle" onClick={showNavbar}>
+                <div className="navbarLinkToggle" onClick={showNavbar}>
                     <ToggleIcon active={active} handleChangeActive={handleChangeActive} />
                 </div>
 
-                <nav class="navbarItems navbarItemsRight">
-                    <div class="navbarLink toggleItem">
+                <nav className="navbarItems navbarItemsRight">
+                    <div className="navbarLink toggleItem">
                         <a href="#home">Home</a>
                     </div>
-                    <div class="navbarLink toggleItem">
+                    <div className="navbarLink toggleItem">
                         <a href="#about">About</a>
                     </div>
-                    <div class="navbarLink toggleItem">
+                    <div className="navbarLink toggleItem">
                         <a href="#projects">Projects</a>
                     </div>
-                    <div class="navbarLink toggleItem">
+                    <div className="navbarLink toggleItem">
                         <a href="#contact">Contact</a>
                     </div>
                     {/* <div class="navbarLink toggleItem">
