@@ -16,6 +16,7 @@ const projects = [
     {
         id: 1,
         image: AppleWatch,
+        alt: "Apple Watch Website Preview",
         link: "https://bschall20.github.io/Apple-Watch-Landing-Page/",
         title: "Apple Watch Landing Page",
         description: "Find all of your Apple Watch needs at the Apple Watch Landing Page! Styled after the official Apple Watch website from 06/21/2023. The original page has since been updated."
@@ -23,6 +24,7 @@ const projects = [
     {
         id: 2,
         image: StockHQ,
+        alt: "StockHQ Website Preview",
         link: "https://stockhq-2f8e2.web.app/",
         title: "StockHQ",
         description: "At StockHQ you will find all of the information you need to excel at your stock, options, and futures planning! Check out our industry-leading stock charting service!"
@@ -30,6 +32,7 @@ const projects = [
     {
         id: 3,
         image: Battleship,
+        alt: "Battleship Website Preview",
         link: "https://bschall20.github.io/JS-Battleship/",
         title: "Battleship JS Project",
         description: "Fully coded in Javascript face a friend, AI, or your mortal enemy! Played first to 14, gain bragging rights over your opponent when you sink all of their battleships!"

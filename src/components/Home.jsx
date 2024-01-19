@@ -27,10 +27,10 @@ function Home() {
       {/* <a id="home"/> */}
       <section class="introSection" id="home">
         <div class="iconBar">
-          <Link href="https://github.com/bschall20" target="_blank">
+          <Link href="https://github.com/bschall20" target="_blank" rel="noreferrer">
             <GitHubIcon fontSize="large"/>
           </Link>
-          <Link href="https://www.linkedin.com/in/brennan-schall-36bb14139/" target="_blank">
+          <Link href="https://www.linkedin.com/in/brennan-schall-36bb14139/" target="_blank" rel="noreferrer">
             <LinkedInIcon fontSize="large"/>
           </Link>
         </div>
