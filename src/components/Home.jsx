@@ -13,6 +13,8 @@ function createProject(projectProps) {
       link={projectProps.link}
       title={projectProps.title}
       description={projectProps.description}
+      roadblocks={projectProps.roadblocks}
+      learned={projectProps.learned}
     />
   );
 }

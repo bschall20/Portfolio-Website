@@ -19,7 +19,9 @@ const projects = [
         alt: "Apple Watch Website Preview",
         link: "https://bschall20.github.io/Apple-Watch-Landing-Page/",
         title: "Apple Watch Landing Page",
-        description: "Find all of your Apple Watch needs at the Apple Watch Landing Page! Styled after the official Apple Watch website from 06/21/2023. The original page has since been updated."
+        description: "Find all of your Apple Watch needs at the Apple Watch Landing Page! Styled after the official Apple Watch website from 06/21/2023. The original page has since been updated.",
+        roadblocks: "Multi-item carousel, item dropdowns, scalability, multi-colored button, formatting.",
+        learned: "Bootstrap in-depth, size scaling, formatting, item-spacing."
     },
     {
         id: 2,
@@ -27,7 +29,9 @@ const projects = [
         alt: "StockHQ Website Preview",
         link: "https://stockhq-2f8e2.web.app/",
         title: "StockHQ",
-        description: "At StockHQ you will find all of the information you need to excel at your stock, options, and futures planning! Check out our industry-leading stock charting service!"
+        description: "At StockHQ you will find all of the information you need to excel at your stock, options, and futures planning! Check out our industry-leading stock charting service!",
+        roadblocks: "API data usage, React routing + Hooks, graphing service, stock market clock",
+        learned: "React, React components + routing, REST API's, real-time editing, multi-use functions"
     },
     {
         id: 3,
@@ -35,7 +39,9 @@ const projects = [
         alt: "Battleship Website Preview",
         link: "https://bschall20.github.io/JS-Battleship/",
         title: "Battleship JS Project",
-        description: "Fully coded in Javascript face a friend, AI, or your mortal enemy! Played first to 14, gain bragging rights over your opponent when you sink all of their battleships!"
+        description: "Fully coded in Javascript face a friend, AI, or your mortal enemy! Played first to 14, gain bragging rights over your opponent when you sink all of their battleships!",
+        roadblocks: "Game board with table cells, bot placement + play, error catches, board limits for ships",
+        learned: "JQuery in-depth, generating play area, multi-use functions with error catching"
     }
 
     // {
