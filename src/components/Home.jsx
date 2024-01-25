@@ -146,7 +146,7 @@ function Home() {
         <p className="infoP">
           Looking to hire me, talk about best coding practices, or provide feedback on my website? Reach out to me below!
           I'd love to form or join a community to improve ourselves!</p>
-        <a className="btn" href="mailto:schallb@bgsu.edu">CONTACT ME</a>
+        <a className="btn" href="mailto:bschall2016@gmail.com">CONTACT ME</a>
       </section>
 
     </div>
