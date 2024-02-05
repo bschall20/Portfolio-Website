@@ -39,7 +39,7 @@ function Home() {
 
         <div className="introDiv">
           <h1>HEY, I'M BRENNAN SCHALL</h1>
-          <p className="introDivP" id="about">I'm a self-taught Frontend focused Web Developer located in Toledo, Ohio that is passionate about creating art through code and
+          <p className="introDivP" id="about">I'm a self-taught Front-End focused Web Developer located in Toledo, Ohio that is passionate about creating art through code and
             learning new coding practices!</p>
         </div>
       </section>
